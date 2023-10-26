@@ -27,15 +27,16 @@ Exposure to poor air quality poses both short-term and long-term health risks. S
 
 1. Raspberry Pi Microprocessor
 2. An Air Quality Sensor
-3. ThingSpeak API to post and fetch the air quality data.
+3. ThingSpeak API / Express.JS to post and fetch the air quality data.
 4. ReactJS, Progressive Web App (PWA), HTML, CSS
 5. Python, used for coding Raspberry Pi
+6. 
 
 ### What sets us apart?
 
 Pyourly sets apart the other regular air quality monitoring setups in the following ways:
 
-1. **Low Latency**: This system will be of very low latency as we use very lightweight and efficient to write the app and connection. Use of caching of the data, we can significantly low the latency of the product.
+1. **Low Latency**: Thingspeak API / Server written in Express.JS leads in really low latency and real time updates.  Use of very lightweight and efficient code to write the app and connection. Use of caching of the data, we can significantly low the latency of the product.
 2. **Good UI**: Apart from the other apps, Pyourly stands out with its good and interactive user interface which keeps users engaged and also awares them aboutthe air quality and how can they get pure and good air.
 3. **Low Cost**: Because of the selection of the most suitable hardware i.e., Raspberry Pi and an Air Quality Sensor, we reduce the price of the product.
 4. **Accurate Measurements**: The use of quality sensors and data validation techniques to identify and eliminate erroneous or inconsistent data points, ensuring that only accurate measurements are considered.

@@ -35,10 +35,11 @@ Exposure to poor air quality poses both short-term and long-term health risks. S
 
 Here's how Pyourly is a cut above similar apps in the segment:
 
-1. **Low Latency**: This system will be of very low latency as we use very lightweight and efficient to write the app and connection. Use of caching of the data, we can significantly low the latency of the product.
-2. **Better UI/UX**: Apart from the other apps, Pyourly stands out with its interactive user interface which keeps users engaged and also informs them about the indoor and outdoor air quality and how can they get pure and good air.
-3. **Low Cost**: Because of the selection of the most suitable hardware i.e., Raspberry Pi and an Air Quality Sensor, we reduce the price of the product.
-4. **Accurate Measurements**: The use of quality sensors and data validation techniques to identify and eliminate erroneous or inconsistent data points, ensuring that only accurate measurements are considered.
+1. **Low Latency**: The Air Monitoring App stands out for its low latency, which is facilitated by an express server running on a Raspberry Pi. This setup enables direct access to real-time data without relying on intermediary platforms such as ThingSpeak API. By cutting out the need for third-party middleware, the app significantly reduces data retrieval time, ensuring that users receive immediate updates on air quality metrics.
+2. **Better UI/UX**: Apart from the other apps, Pyourly stands out with its interactive user interface which keeps users engaged and also informs them about the indoor and outdoor air quality.
+3. **Friendly Notification Feature**: The notification feature in **Pyourly** serves as a crucial tool to keep users informed about the current air quality. With the aim of promoting proactive health measures, the app generates timely alerts tailored to pollution levels. For instance, when detecting mild pollution, the app sends a friendly reminder such as, "Mild pollution alert: Time to open the windows, maybe?" This encourages users to take simple precautions. In more critical situations, like extreme pollution, the app issues a poignant warning. By leveraging these personalized notifications, the Air Monitoring App empowers users to safeguard their well-being amidst fluctuating air quality conditions.
+4. **Low Cost**: Because of the selection of the most suitable hardware i.e., Raspberry Pi and an Air Quality Sensor, we reduce the price of the product.
+5. **Accurate Measurements**: The use of quality sensors and data validation techniques to identify and eliminate erroneous or inconsistent data points, ensuring that only accurate measurements are considered.
 
 ### Offline Features of the App:
 
